@@ -1,26 +1,192 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
 
 <meta charset="UTF-8">
 
-<script>
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
 
-window.onload=function(){
+<title>WiFi Gratuit</title>
 
-window.location.href=
-"http://192.168.88.1/login?username=patient&password=123456&dst=https://instagram.com/dr_taha_zade";
+<style>
 
-};
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
 
-</script>
+body{
+
+font-family:Arial,sans-serif;
+
+background:
+linear-gradient(
+135deg,
+#833ab4,
+#fd1d1d,
+#fcb045
+);
+
+min-height:100vh;
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+padding:20px;
+
+}
+
+.card{
+
+background:white;
+
+width:100%;
+max-width:430px;
+
+border-radius:30px;
+
+padding:40px 25px;
+
+text-align:center;
+
+box-shadow:
+0 10px 40px rgba(0,0,0,0.2);
+
+}
+
+h1{
+
+font-size:32px;
+
+margin-bottom:15px;
+
+color:#333;
+
+}
+
+.subtitle{
+
+font-size:16px;
+
+line-height:1.7;
+
+color:#666;
+
+margin-bottom:35px;
+
+}
+
+.btn{
+
+display:block;
+
+width:100%;
+
+padding:17px;
+
+border-radius:16px;
+
+text-decoration:none;
+
+font-size:18px;
+
+font-weight:bold;
+
+transition:0.3s;
+
+margin-bottom:18px;
+
+}
+
+.instagram{
+
+background:#E1306C;
+
+color:white;
+
+}
+
+.wifi{
+
+background:#111;
+
+color:white;
+
+}
+
+.footer{
+
+margin-top:15px;
+
+font-size:13px;
+
+color:#999;
+
+}
+
+</style>
 
 </head>
 
 <body>
 
-Connexion WiFi...
+<div class="card">
+
+<h1>WiFi Gratuit</h1>
+
+<p class="subtitle">
+
+1. Ouvrez Instagram
+
+<br><br>
+
+2. Revenez ici
+
+<br><br>
+
+3. Cliquez sur :
+
+<b>Activer Internet</b>
+
+</p>
+
+<!-- INSTAGRAM -->
+
+<a
+
+class="btn instagram"
+
+href="https://instagram.com/votrepage"
+
+target="_blank">
+
+📸 Ouvrir Instagram
+
+</a>
+
+<!-- WIFI LOGIN -->
+
+<a
+
+class="btn wifi"
+
+href="http://192.168.88.1/login?username=guest&password=guest">
+
+🌐 Activer Internet
+
+</a>
+
+<div class="footer">
+
+Compatible Android • iPhone
+
+</div>
+
+</div>
 
 </body>
 
